@@ -9,7 +9,7 @@ import random
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/e549ba4defc831d5c5d35.jpg",
+        photo=f"https://graph.org/file/6ae4c163aac6f69ad9eb9.jpg",
         caption=f"""
  [𝐒𝐎𝐔𝐑𝐂𝐄•𝐒𝐎𝐇𝐀](https://t.me/Mlze1bot)
  —————————————
@@ -23,7 +23,7 @@ async def huhh(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𝐂𝐑𝐘𝐒𝐓𝐀𝐋", url=f"https://t.me/Mlze1bot"), 
+                        "𝐒𝐎𝐇𝐀", url=f"https://t.me/smauabot"), 
                 ],[
                     InlineKeyboardButton(
                         "𝐒𝐎𝐔𝐑𝐂𝐄•𝐒𝐎𝐇𝐀", url=f"t.me/ASAAQLIO"),
