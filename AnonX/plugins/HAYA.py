@@ -15,27 +15,27 @@ from random import  choice, randint
 
                 
 @app.on_message(
-    command(["مطورين crs","المطورين","مطورين","مطورين كرستال"])
+    command(["مطورين ا","المطورين","مطورين","مطورين سهى"])
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3123f5336cb10b95f6c0d.jpg",
-        caption=f"""*𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**\nمرحبا بك عزيزي {message.from_user.mention} في قسم مطورين كرستال ميوزك\nللتحدث مع مطورين اضغط علي الازرار بالاسفل👇\n**𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**""",
+        photo=f"https://graph.org/file/6ae4c163aac6f69ad9eb9.jpg",
+        caption=f"""*𝐒𝐎𝐔𝐑𝐂𝐄•𝐒𝐎𝐇𝐀**\nمرحبا بك عزيزي {message.from_user.mention} في قسم مطورين سهى ميوزك\nللتحدث مع مطورين اضغط علي الازرار بالاسفل👇\n**𝐒𝐎𝐔𝐑𝐂𝐄•𝐒𝐎𝐇𝐀**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "᳒•𝐂𝐑𝐘𝐒𝐓𝐀𝐋 ˹َّّ ", url=f"https://t.me/N_1_F"), 
+                        "᳒•𝐒𝐎𝐇𝐀 ˹َّّ ", url=f"https://t.me/smauabot"), 
                  ],[
                     
                 
                     InlineKeyboardButton(
-                        "𓏺𝙒𝙃𝙄𝙎𝙆𓏺𝞝𝙔", url=f"https://t.me/bp_bp"),
+                        "𓏺𝙒𝙃𝙄𝙎𝙆𓏺𝞝𝙔", url=f"https://t.me/A_S_A_S_K"),
                 ],[
                     
                 
                     InlineKeyboardButton(
-                        "★𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋⚡", url=f"https://t.me/VVHH9"),
+                        "★𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋⚡", url=f"https://t.me/Mlze1bot"),
                 
         ],
 
