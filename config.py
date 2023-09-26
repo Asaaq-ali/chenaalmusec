@@ -13,17 +13,17 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-PROG_ID = list(map(int, getenv("PROG_ID","5676384368").split()))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "كرستال")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5676384368").split()))
+PROG_ID = list(map(int, getenv("PROG_ID","6218149232").split()))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "سهى")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6218149232").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 USER_OWNER = getenv("USER_OWNER","bp_bp")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ma7amad2000/CRS")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/asaaqaa/CRS")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "VVHH9")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/VVHH9")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "Mlze1bot")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ASAAQLIO")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -85,7 +85,7 @@ PLAYLIST_IMG_URL = "https://telegra.ph/file/3123f5336cb10b95f6c0d.jpg"
 
 GLOBAL_IMG_URL = "https://telegra.ph/file/3123f5336cb10b95f6c0d.jpg"
 
-STATS_IMG_URL = getenv("https://telegra.ph/file/3123f5336cb10b95f6c0d.jpg")
+STATS_IMG_URL = getenv("https://graph.org/file/e549ba4defc831d5c5d35.jpg")
 
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 
