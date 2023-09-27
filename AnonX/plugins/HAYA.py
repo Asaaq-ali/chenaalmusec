@@ -35,7 +35,7 @@ async def huhh(client: Client, message: Message):
                     
                 
                     InlineKeyboardButton(
-                        "★𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋⚡", url=f"https://t.me/Mlze1bot"),
+                        "★𝐒𝐎𝐔𝐑𝐂𝐄•𝐒𝐎𝐇𝐀⚡", url=f"https://t.me/Mlze1bot"),
                 
         ],
 
@@ -55,7 +55,7 @@ async def huhh(client: Client, message: Message):
 
 
 @app.on_message(
-   command(["مبرمج السورس","مطور السورس"])
+   command(["مبرمج السورس","المبرمج"])
    
 )
 async def yas(client, message):
@@ -131,7 +131,7 @@ async def yas(client, message):
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://graph.org/file/2d3ae472e923d61ce3504.jpg",
-        caption=f"""**𝐒𝐎𝐔𝐑𝐂𝐄•𝐒𝐎𝐇𝐀**\nمرحبا بك عزيزي {message.from_user.mention} في قسم الذكاء الاصتناعي الخاص بسورس كرستال\nلتتمكن من استخدام اوامر الذكاء الاصتناعي اكتب \n سؤال + السؤال بالاسفل 👇\n**𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**""",
+        caption=f"""**𝐒𝐎𝐔𝐑𝐂𝐄•𝐒𝐎𝐇𝐀**\nمرحبا بك عزيزي {message.from_user.mention} في قسم الذكاء الاصتناعي الخاص بسورس سهۍ\nلتتمكن من استخدام اوامر الذكاء الاصتناعي اكتب \n سؤال + السؤال بالاسفل 👇\n**𝐒𝐎𝐔𝐑𝐂𝐄•𝐒𝐎𝐇𝐀**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -159,7 +159,7 @@ async def huhh(client: Client, message: Message):
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://graph.org/file/2d3ae472e923d61ce3504.jpg",
-        caption=f"""**𝐒𝐎𝐔𝐑𝐂𝐄•𝐒𝐎𝐇𝐀**\nمرحبا بك عزيزي {message.from_user.mention} في قسم تشغيل القرأن الخاص بسورس كرستال\nلتتمكن من استخدام اوامر القرأن اكتب \n سورة + اسم السورة بالاسفل👇\n**𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**""",
+        caption=f"""**𝐒𝐎𝐔𝐑𝐂𝐄•𝐒𝐎𝐇𝐀**\nمرحبا بك عزيزي {message.from_user.mention} في قسم تشغيل القرأن الخاص بسورس سهۍ\nلتتمكن من استخدام اوامر القرأن اكتب \n سورة + اسم السورة بالاسفل👇\n**𝐒𝐎𝐔𝐑𝐂𝐄•𝐒𝐎𝐇𝐀**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
