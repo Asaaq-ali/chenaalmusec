@@ -136,7 +136,7 @@ async def huhh(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "᳒•𝐂𝐑𝐘𝐒𝐓𝐀𝐋 ˹َّّ", url=f"https://t.me/A_S_A_S_K"), 
+                        "᳒•𝐒𝐎𝐇𝐀 ˹َّّ", url=f"https://t.me/smauabot"), 
                  ],[
                 
                     InlineKeyboardButton(
@@ -164,7 +164,7 @@ async def huhh(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "᳒•𝐂𝐑𝐘𝐒𝐓𝐀𝐋 ˹َّّ", url=f"https://t.me/A_S_A_S_K"), 
+                        "᳒•𝐒𝐎𝐇𝐀 ˹َّّ", url=f"https://t.me/smauabot"), 
                  ],[
                 
                     InlineKeyboardButton(
