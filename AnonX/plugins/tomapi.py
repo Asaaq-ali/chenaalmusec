@@ -22,7 +22,7 @@ from pyrogram.errors import MessageNotModified
 async def cr_source(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/3123f5336cb10b95f6c0d.jpg",
-        caption=f"""** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐒𝐎𝐇𝐀**\nمرحبا بك عزيزي {message.from_user.mention}\nانا بوت الذكاء الاصطناعي الخاص بسورس سهى \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**""",
+        caption=f"""** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐒𝐎𝐇𝐀**\nمرحبا بك عزيزي {message.from_user.mention}\nانا بوت الذكاء الاصطناعي الخاص بسورس سهى \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐒𝐎𝐇𝐀**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -30,9 +30,9 @@ async def cr_source(client: Client, message: Message):
                         "طريقة الإستخدام", callback_data="usage"), 
                  ],[
                     InlineKeyboardButton(
-                        "𓆩 |𓆩˹𓏺َِ •𝐂𝐑𝐘𝐒𝐓𝐀𝐋", url=f"https://t.me/N_1_F"),
+                        "𓆩 |𓆩˹𓏺َِ •𝐂𝐑𝐘𝐒𝐓𝐀𝐋", url=f"https://t.me/A_S_A_S_K"),
                     InlineKeyboardButton(
-                        "اخوي", url=f"https://t.me/bp_bp"),
+                        "اخوي", url=f"https://t.me/Kap00os"),
                 ],[
                 
                     InlineKeyboardButton(
