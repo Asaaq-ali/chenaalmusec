@@ -30,7 +30,7 @@ async def cr_source(client: Client, message: Message):
                         "طريقة الإستخدام", callback_data="usage"), 
                  ],[
                     InlineKeyboardButton(
-                        "𓆩 |𓆩˹𓏺َِ •𝐂𝐑𝐘𝐒𝐓𝐀𝐋", url=f"https://t.me/A_S_A_S_K"),
+                        "𓆩 |𓆩˹𓏺َِ •المطور", url=f"https://t.me/A_S_A_S_K"),
                     InlineKeyboardButton(
                         "اخوي", url=f"https://t.me/Kap00os"),
                 ],[
@@ -74,7 +74,7 @@ async def cr_back(_, callback_query: CallbackQuery):
     await message.edit_reply_markup(reply_markup=InlineKeyboardMarkup(
         
             [InlineKeyboardButton("طريقة الإستخدام", callback_data="usage")],
-            [InlineKeyboardButton("|𓆩˹𓏺َِ •𝐂𝐑𝐘𝐒𝐓𝐀𝐋", url=f"https://t.me/A_S_A_S_K")
+            [InlineKeyboardButton("|𓆩˹𓏺َِ •المطور", url=f"https://t.me/A_S_A_S_K")
              
             [InlineKeyboardButton("★ 𝐒𝐎𝐔𝐑𝐂𝐄•𝐒𝐎𝐇𝐀⚡", url=f"https://t.me/Mlze1bot")],
         ]
