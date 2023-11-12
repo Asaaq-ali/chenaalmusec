@@ -17,7 +17,6 @@ from pyrogram.errors import MessageNotModified
 
 @app.on_message(
     command(SZAQ_COMMAND_chh)
-    & filters.channel
     & ~BANNED_USERS
 async def cr_source(client: Client, message: Message):
     await message.reply_photo(
